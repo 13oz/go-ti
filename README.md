@@ -1,3 +1,3 @@
-# go-vm
+# go-ti
 
-Vulnerability feed client written in golang
+Threat Intel collector written in Golang
