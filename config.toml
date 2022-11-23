@@ -1,0 +1,15 @@
+[otx]
+api_key = ""
+
+[otx.pulses]
+pulses = ["alpha", "beta"]
+
+[otx.indicators]
+indicators = ["dns", "ip"]
+
+[database]
+type = ""
+address = ""
+port = ""
+login = ""
+password = ""
