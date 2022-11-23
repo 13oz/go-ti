@@ -1,12 +1,9 @@
 package main
 
 import (
-	"fmt"
-
-	"./models"
+	"./config"
 )
 
 func main() {
-	fmt.Println("Hello, world!")
-	models.Test()
+	config.ReadConfigFile("config.toml")
 }
