@@ -36,6 +36,7 @@ func ReadConfigFile(filename string) bool {
 	return true
 }
 
+// TODO parse list from file
 func parseOtxConfig(otxConfigString string, otx *OtxConfig) {
 	var otxGlobalFlag bool = false
 	var otxPulsesFlag bool = false
